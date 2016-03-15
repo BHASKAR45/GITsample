@@ -7,7 +7,7 @@ public class ExceptionSample {
 	public static void main(String[] args) throws Exception{
 		
 	    try{
-		FileInputStream input=new FileInputStream("C://Users/CG5/sampleFF.txt");
+		FileInputStream input=new FileInputStream();
 		int c;
 		while((c=input.read())!=-1)
 		{
