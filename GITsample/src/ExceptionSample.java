@@ -15,7 +15,7 @@ public class ExceptionSample {
 		}
 	    }
 	    catch (FileNotFoundException e){
-	    	System.out.println();
+	    	System.out.println("File Not Found");
 	    }
 
 }
