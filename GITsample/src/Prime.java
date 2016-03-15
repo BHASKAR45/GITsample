@@ -3,7 +3,7 @@ package com.cloudgensys.training;
 import java.util.Scanner;
 
 public class Prime {
-	static float start,total;
+	static float total;
 	 public static boolean isPrime(int a){
 		 int count=0;
 		 for(int i=2;i<Math.sqrt(a);i++){
